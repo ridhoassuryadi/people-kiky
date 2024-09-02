@@ -4,7 +4,6 @@ import type {
   Identity,
   AboutPageContent,
   ProjectPageContent,
-  BlogPageContent,
   HomePageContent,
 } from "./types/config";
 
@@ -19,11 +18,7 @@ export const navBarLinks: NavBarLink[] = [
   {
     title: "Projects",
     url: "/projects",
-  },
-  {
-    title: "Blog",
-    url: "/blog",
-  },
+  }
 ];
 
 export const socialLinks: SocialLink[] = [
@@ -157,14 +152,4 @@ export const projectsPageContent: ProjectPageContent = {
       url: "#",
     },
   ],
-};
-
-// Blog (/blog)
-export const blogPageContent: BlogPageContent = {
-  seo: {
-    title: "Blog | Tim Witzdam",
-    description: "Thoughts, stories and ideas.",
-    image: identity.logo,
-  },
-  subtitle: "Thoughts, stories and ideas.",
 };
