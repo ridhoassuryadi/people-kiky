@@ -38,9 +38,9 @@ export const socialLinks: SocialLink[] = [
 // Home (/)
 export const homePageContent: HomePageContent = {
   seo: {
-    title: "Tim Witzdam",
+    title: "Noor Rizky Amalia",
     description:
-      "Full time student from Germany who loves building cool things using code.",
+      "Quality Assurance and UI / UX Enthusiast.",
     image: identity.logo,
   },
   role: "UI / UX Enthusiast",
